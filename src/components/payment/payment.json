@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_payment_payments",
+  "info": {
+    "displayName": "payment"
+  },
+  "options": {},
+  "attributes": {
+    "payment_id": {
+      "type": "string"
+    },
+    "payer_name": {
+      "type": "string"
+    },
+    "payer_email": {
+      "type": "email"
+    },
+    "payer_phone": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "create_time": {
+      "type": "string"
+    }
+  }
+}

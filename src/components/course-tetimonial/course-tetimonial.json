@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_course_tetimonial_course_tetimonials",
+  "info": {
+    "displayName": "course-tetimonial",
+    "icon": "backward"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "video": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}
