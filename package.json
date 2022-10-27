@@ -1,0 +1,37 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@strapi/plugin-i18n": "4.3.6",
+    "@strapi/plugin-users-permissions": "4.3.6",
+    "@strapi/provider-email-nodemailer": "^4.4.3",
+    "@strapi/strapi": "4.3.6",
+    "axios": "^0.27.2",
+    "better-sqlite3": "7.4.6",
+    "mysql": "^2.18.1",
+    "paytabs": "^2.2.0",
+    "rekuire": "^0.1.9",
+    "strapi-plugin-paypal": "^0.0.0",
+    "strapi-provider-email-smtp": "^1.0.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "1c93a075-af6f-40a7-9c0a-1084b714dab2"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
